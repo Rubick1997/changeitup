@@ -7,44 +7,51 @@ h1, h2, h3 {
 }
 
 h2 {
-    color:#3046C5;
+    color: blue;
 }
 
-header h2{
-    color:#CEC8FF;
+header h2 {
+    color: yellow;
 }
 
-.site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
-    padding:20px 0;
+.site-footer {
+    background-image: linear-gradient(to right, #ff0099, #493240);
+    padding: 20px 0;
 }
 
-.jumbotron{
-    padding:30px;
-    background-image:linear-gradient(to right, #5637DD, #3046C5,#60106B);
+.jumbotron {
+    padding: 30px;
+    background: linear-gradient(to right, #ff0099, #493240);
     color: white;
-    margin:0;
+    margin: 0;
 }
 
-.row-content{
-    padding:50px 0;
-    border-bottom:1px ridge;
-    min-height:200px;
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
 
+.navbar {
+    background: linear-gradient(to right, #a80077, #66ff00);
 }
-.navbar{
-    background-color: #901CAD;
-}
+
 .tab-content {
-    border:1px solid #DDD;
+    border: 1px solid #DDD;
     border-top: none;
-    padding:10px;
-
+    padding: 10px;
 }
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
     border: solid #5637DD;
+}
+
+body {
+    background-image: url("/img/page.jpg");
+    background-attachment: fixed;
+    background-position: center;
 }
